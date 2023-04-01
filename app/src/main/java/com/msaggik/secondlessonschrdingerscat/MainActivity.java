@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    ImageView imageView;
+
     // создание полей для вывода на экран нужных значений
     private TextView coordinatesOut; // окно вывода значений координат
     private float x; // задание поля для координаты X
@@ -23,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     private String sUp; // строка для записи координат отпускания
 
     // задание дополнительных полей координат кота Шрёдингера
-    private final float xCat = 500; // задание поля для координаты X
-    private final float yCat = 500; // задание поля для координаты Y
+    private final float xCat = 400; // задание поля для координаты X
+    private final float yCat = 450; // задание поля для координаты Y
     private final float deltaCat = 50; // допустимая погрешность в нахождении кота
 
     @Override
